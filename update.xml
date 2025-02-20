@@ -1,0 +1,26 @@
+<ns0:pricebooks xmlns:ns0="http://www.demandware.com/xml/impex/pricebook/2006-10-31">
+    <ns0:pricebook>
+        <ns0:header pricebook-id="test-en-usd-prices">
+            <ns0:currency>USD</ns0:currency>
+            <ns0:display-name xml:lang="x-default">List Prices</ns0:display-name>
+            <ns0:online-flag>true</ns0:online-flag>
+        </ns0:header>
+
+
+
+        <ns0:price-tables>
+            <ns0:price-table product-id="product_1">
+                <ns0:online-from>2024-01-01T08:00:00.000Z</ns0:online-from>
+                <ns0:amount quantity="1">12.8</ns0:amount>
+            </ns0:price-table>
+
+
+
+            <ns0:price-table product-id="product_2">
+                <ns0:online-from>2024-01-01T08:00:00.000Z</ns0:online-from>
+                <ns0:amount quantity="1">25.6</ns0:amount>
+            </ns0:price-table>
+
+</ns0:price-tables>
+    </ns0:pricebook>
+</ns0:pricebooks>
